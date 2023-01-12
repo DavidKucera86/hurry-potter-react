@@ -1,0 +1,57 @@
+.all-horc {
+    color: #ED8B16;
+    background-color: #005E54;
+    box-shadow: 0 0 6.25rem #ED8B16;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.all-horc button {
+    background-color: transparent;
+    border: none;
+    font-size: 2.25rem;
+    color: #C2BB00;
+    cursor: pointer;
+}
+
+.all-horc-content {
+    display: flex;
+    flex-direction: row;    
+    width: 31.25rem;
+    overflow: hidden;
+    height: 25rem;
+    text-align: center;
+    position: relative;
+}
+ 
+.all-horc-content article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.all-horc-content img {
+    width: 80%;
+    height: 18.75rem;
+}
+
+/* 
+=== SHIFTING ===
+*/
+ 
+article.active-slide {
+    opacity: 1;
+    transform: translateX(0);
+}
+ 
+article.last-slide {
+    transform: translateX(-100%);
+}
+ 
+article.next-slide {
+    transform: translateX(100%)
+}

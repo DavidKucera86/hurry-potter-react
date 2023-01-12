@@ -1,0 +1,74 @@
+/* 
+=== BUTTONS ===
+*/
+
+.filtering-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+}
+
+.filtering-buttons button {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 2rem;    
+    padding: 3rem 0.5rem 1rem 0.5rem;
+    background-color: #C2BB00;
+    color: #005E54;
+    cursor: pointer;
+    transition: all 0.5s linear;    
+    clip-path: polygon(0 41%, 33% 41%, 30% 0, 73% 41%, 100% 41%, 100% 100%, 0 100%);    
+}
+
+.filtering-buttons button:hover {
+    background-color: #ED8B16;
+}
+
+/* 
+=== CHARACTERS ===
+*/
+
+.all-characters {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;      
+}
+
+.one-char {
+    width: 350px; 
+    margin: 10px 0 0 10px;  
+    padding: 10px;
+    background-color: #005E54;
+    color: #ED8B16;
+    text-align: center;
+    transition: all 0.5s linear;    
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 95% 100%, 5% 100%, 0% 80%, 0% 20%);
+}
+
+.one-char img {
+    width: 162px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+.one-char ul li {
+    list-style-type: none;    
+}
+
+.one-char:hover {    
+    transform: scale(1.04)
+}
+
+ul {
+    margin: 0;
+    padding: 0;    
+}
+
+ul strong {
+    color: #E1523D;
+    font-weight: 700;
+    font-size: large;
+}

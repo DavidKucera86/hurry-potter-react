@@ -1,0 +1,19 @@
+article.simple-horc {    
+    text-align: center;
+    color: #ED8B16;
+    background-color: #005E54;
+    box-shadow: 0px 0px 100px #ED8B16;
+}
+
+article.simple-horc img {
+    max-width: 500px; 
+    height: 300px;    
+}
+
+article.simple-horc button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: #C2BB00;
+    cursor: pointer;
+}
