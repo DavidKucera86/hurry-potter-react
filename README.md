@@ -8,6 +8,8 @@ The goal of this project is to show actual David's skills about React JavaScript
 - useState and useEffect hooks
 - filtering items according to categories (conditional rendering)
 - translations texts from english to czech
+- responsivity
+- carousel-slider
 
 You can:
 - try application here: https://hurry-potter-react.netlify.app/
